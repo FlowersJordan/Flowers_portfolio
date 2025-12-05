@@ -1,0 +1,33 @@
+/* Global font */
+html, body {
+	font-family: "Times New Roman", Times, serif;
+}
+
+/* Ensure form elements inherit the font */
+input, textarea, select, button {
+	font-family: inherit;
+}
+
+
+/* Top navigation: centered and bottom border */
+.top-nav {
+	border-bottom: 3px solid #000;
+	width: 90%;
+	max-width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.top-nav > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.name {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
