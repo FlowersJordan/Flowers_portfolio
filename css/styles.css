@@ -1,5 +1,5 @@
 /* Global font */
-html, body {
+* {
 	font-family: "Times New Roman", Times, serif;
 }
 
@@ -30,4 +30,8 @@ input, textarea, select, button {
 
 .title {
     text-align: center;
+}
+
+#skills {
+	background-color: darkgray;
 }
