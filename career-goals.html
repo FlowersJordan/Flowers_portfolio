@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Goals</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <nav>
+        <strong>
+        <a href="resume.html">Resume</a> |
+        <a href="cover-letter.html">Cover Letter</a> |
+        <a href="https://www.github.com/flowersjordan">Projects</a>
+        </strong>
+    </nav>
+    <hr>
+    <header class="career-goals-header">
+        <div>
+            <h1>Career Goals</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="career-goals-section">
+            <h2>Short-Term Goals</h2>
+            <ul>
+                <li>Enhance my proficiency in full-stack web development by completing advanced courses in JavaScript frameworks.</li>
+                <li>Contribute to open-source projects to gain practical experience and collaborate with other developers.</li>
+                <li>Obtain relevant certifications such as AWS Certified Developer to bolster my technical credentials.</li>
+            </ul>
+        </section>
+
+        <section class="career-goals-section">
+            <h2>Long-Term Goals</h2>
+            <ul>
+                <li>Secure a senior developer position at a leading tech company where I can lead projects and mentor junior developers.</li>
+                <li>Continuously evolve my skill set to stay abreast of emerging technologies and industry trends.</li>
+                <li>Eventually transition into a leadership role, such as a Technical Lead or Engineering Manager, to influence project direction and team growth.</li>
+            </ul>
+        </section>
+        <hr>
+
+        <section class="About-Me">
+            <article id="images">
+                <h4>My Dogs</h4>
+                <img src="images/rylee.jpg" alt="Rylee" title="Rylee" width="300px" height="200px">
+                <img src="images/thor.jpg" alt="Thor" title="Thor" width="300px" height="200px">
+            </article>
+            
+            <article id="Music">
+                <h4>My Favorite Music</h4>
+                <audio controls>
+                    <source src="media/sample.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </article>
+
+            <article>
+                <h4>My Favorite Video</h4>
+                <video width="320" height="240" controls>
+                    <source src="media/journey.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </article>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+            <h2>Contact Me</h2>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" placeholder="John" required><br>
+
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Doe" required><br>
+
+            <label for="Company">Company:</label>
+            <input type="text" id="company" name="company" placeholder="Company Inc." required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="johndoe@gmail.com" required><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890" required><br>
+
+            <label for="message">Message:</label>
+            <input type=area cols="30" rows="10" placeholder="Your message here..."></input><br>
+
+            <label for="time">Best Contact Time:</label><br>
+            <input type="radio" name="time" value="AM" required>
+            <label for="AM">AM</label><br>
+            <input type="radio" name="time" value="PM" required>
+            <label for="PM">PM</label><br>
+            <input type="radio" name="time" value="anytime" required>
+            <label for="anytime">Anytime</label><br><br>
+
+            <label for="preference">Preferred Contact Method:</label>
+            <select id="preference" name="preference" required>
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+                <option value="text">Text</option>
+            </select><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
+    
+</body>
+</html>

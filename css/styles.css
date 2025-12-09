@@ -1,6 +1,8 @@
 /* Global font */
 * {
 	font-family: "Times New Roman", Times, serif;
+	padding: auto;
+	margin: 10px
 }
 
 /* Top navigation: centered and bottom border */
@@ -36,4 +38,23 @@
 	margin-top: 20px;
 	background-color: lightblue;
 }
+
+a {
+	color: rgb(0, 0, 255);
+}
+
+a:hover {
+	color: rgb(8, 238, 58);
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: outside;
+}
+
+#closing p {
+	font-style: italic;
+}
+
+
 
