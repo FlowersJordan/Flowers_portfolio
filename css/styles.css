@@ -3,12 +3,6 @@
 	font-family: "Times New Roman", Times, serif;
 }
 
-/* Ensure form elements inherit the font */
-input, textarea, select, button {
-	font-family: inherit;
-}
-
-
 /* Top navigation: centered and bottom border */
 .top-nav {
 	border-bottom: 3px solid #000;
@@ -33,5 +27,13 @@ input, textarea, select, button {
 }
 
 #skills {
-	background-color: darkgray;
+	padding-right: 20px;
 }
+
+#last-updated {
+	text-align: center;
+	font-size: 0.9em;
+	margin-top: 20px;
+	background-color: lightblue;
+}
+
